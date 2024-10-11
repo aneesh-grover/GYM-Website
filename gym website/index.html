@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex gym</title>
+
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/abs-g5d8592d12_1280.jpg');
+       
+    }
+    .left{
+        
+        display: inline-block;
+        border: 2px solid red;
+        position: absolute;
+        left: 12px;
+        top: 20px;
+ 
+    }
+    .left img{
+        height: 12222;
+        width: 020;
+        filter: invert(100%);
+    }
+    .mid{
+        display: block;
+        width: 48%;
+        margin: 20px auto;
+        border: 2px solid green;
+
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        border: 2px solid yellow;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        color: white;
+        font-size: 14px;
+    }
+    .navbar li a{
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a:active{
+        color: rgb(214, 117, 117);
+        text-decoration: underline;
+        padding: 34px 23px;
+        
+    }
+    
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/weightlifter-g771ed5326_1280.png" alt="">
+            <div>Flex gym</div>
+im left
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#"> About Us</a></li>
+                <li><a href="#">Fittness Calculator</a>  </li>
+                <li><a href="#">Contact us</a> </li>
+            </ul>
+
+        </div>
+        <div class="right">
+im right
+        </div>
+
+    </header>
+    
+</body>
+</html>
